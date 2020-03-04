@@ -1,23 +1,13 @@
-.box-set {
-    background: #eaeaed;
+body {
+    background-color: lightblue;
   }
-  .box {
-    background: #2db34a;
-    float: left;
-    margin: 1.858736059%;
-    width: 29.615861214%;
+  
+  h1 {
+    color: white;
+    text-align: center;
   }
-  .box-set {
-    overflow: auto;
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
   }
-  .box-set:before,
-.box-set:after {
-  content: "";
-  display: table;
-}
-.box-set:after {
-  clear: both;
-}
-.box-set {
-  *zoom: 1;
-}
